@@ -1,4 +1,4 @@
-// ejercicio 6 
+// ejercicio 6
 // let numero1 = parseInt (prompt("ingrese un primer numero"));
 // let numero2 = parseInt(prompt("ingrese un segundo numero"))
 
@@ -30,13 +30,32 @@ else{
 }*/
 
 // ejercicio 8
+/*
 let numero = parseInt(prompt("ingrese un numero para ver si es divisible en 2"));
 let resultado = (numero % 2);
-const cero = 0;
 console.log(resultado);
-if (resultado = cero ){
-    document.write("El numero " + numero + " es divisible en 2")
+if (resultado == 0 ){
+    document.write("El numero " + numero + " es divisible en 2");
 }else{
-    document.write("El numero " + numero + " no es divisible en 2")
-}
+    document.write("El numero " + numero + " no es divisible en 2");
+}*/
 
+//ejercicio 9
+let frase = prompt("Ingrese una frase");
+console.log(frase.toLowerCase());
+frase = frase.toLowerCase();
+// hola mundo
+console.log(frase.length);
+// tomar un caracter variable.chartAt(indice)
+for (let vocal = 0; vocal < frase.length; vocal++) {
+  console.log(frase.charAt(vocal));
+  if (
+    frase.charAt(vocal) == "a" ||
+    frase.charAt(vocal) == "e" ||
+    frase.charAt(vocal) == "i" ||
+    frase.charAt(vocal) == "o" ||
+    frase.charAt(vocal) == "u"
+  ){
+     document.write((" ") + frase.charAt(vocal));
+  }
+}
