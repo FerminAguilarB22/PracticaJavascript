@@ -59,3 +59,4 @@ for (let vocal = 0; vocal < frase.length; vocal++) {
      document.write((" ") + frase.charAt(vocal));
   }
 }
+
