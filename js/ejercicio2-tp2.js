@@ -16,4 +16,5 @@ switch (nota){
     case 9 : alert("Sobresaliente");
     case 10 : alert("Sobresaliente");
     break;
+    default: alert("ingrese un numero valido");
 }
