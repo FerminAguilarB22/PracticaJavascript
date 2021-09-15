@@ -1,12 +1,12 @@
 let mostrarObjeto = (serieParametro) =>{
     // obtener todas las claves de un objeto, como si fuera un arreglo
     let claves = Object.keys(serieParametro);
-    console.log(claves);
+    console.log(claves);//["nobre", "temporadas",...]
     for(let i = 0 ; i < claves.length; i++){
         document.write(`<br> ${claves[i]}: ${serieParametro[claves[i]]}`)
     }
 
-}
+} 
 
 // let nombre = "The office";
 // let temporadas = 9;
@@ -44,3 +44,6 @@ delete serie.genero;
 console.log(serie);
 
 mostrarObjeto(serie);
+
+
+
